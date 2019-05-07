@@ -1,0 +1,4 @@
+//What is source code?//
+
+Source code is created by a programmer, and it is the 
+fundamental component of a computer
