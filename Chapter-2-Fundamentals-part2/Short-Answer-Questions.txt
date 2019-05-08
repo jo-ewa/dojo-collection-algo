@@ -1,0 +1,12 @@
+1-What is the JavaScript Library? What does it contain?
+
+    R/ The java Script Library is an object containing mathematical methods
+    that allow you to perform mathematical tasks on numbers.
+
+2- Why aren't all those functions just included in JavaScript automatically?
+
+    R/ ?
+
+3- If call Math.random(), what will it return?
+
+    R/ It will return a random number between 0 and 1(not included).

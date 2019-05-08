@@ -1329,42 +1329,49 @@ This number can stretch into the future years! You can assume that any year numb
 divisible by 4 is a leap year and has a 29 day February.
 Given 8475, return "Thursday,March 15, 2040"*/
 
-fullDate2(dayNUM)
-{
-    var month;
-    var monthDay;
-    var weekdayNum;
-    var day;
-    var years;
-    if(dayNum > 365)
-    {
-        years = dayNUM/365;
-    }
-}
+// fullDate2(dayNUM)
+// {
+//     var month;
+//     var monthDay;
+//     var weekdayNum;
+//     var day;
+//     var years;
+//     var dayCount;
+//     var year = 2016;
+//     if(dayNum > 365)
+//     {
+//         while(dayCount <= dayNUM)
+//         {
+//             year 
+//         }
+//     }
+// }
 
-function leapYear(year)
-{
-	if(year % 4 === 0)
-	{
-		if(year % 100 === 0)
-		{
-			if(year % 400 === 0)
-			{
-				console.log("It's a leap year!!!");
-			}
-			else
-			{
-				console.log("Not a leap year.");
-			}
+// function leapYear(year)
+// {
+// 	if(year % 4 === 0)
+// 	{
+// 		if(year % 100 === 0)
+// 		{
+// 			if(year % 400 === 0)
+// 			{
+// 				console.log("It's a leap year!!!");
+// 			}
+// 			else
+// 			{
+// 				console.log("Not a leap year.");
+// 			}
 		
-		}
-		else
-		{
-			console.log("It's a leap year!!!");
-		}
-	}
-	else
-	{
-		console.log("Year "+ year + " Isn't a leap year");
-	}
-}
+// 		}
+// 		else
+// 		{
+// 			console.log("It's a leap year!!!");
+// 		}
+// 	}
+// 	else
+// 	{
+// 		console.log("Year "+ year + " Isn't a leap year");
+// 	}
+// }
+
+console.log(Math.random());
